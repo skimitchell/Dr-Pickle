@@ -1,0 +1,16 @@
+:root { --bg:#0b1220; --panel:#0f182a; --text:#e6f0ff; --muted:#8aa0c7; --brand:#25ff88; }
+*{box-sizing:border-box}
+html,body{padding:0;margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+.container{max-width:1200px;margin:0 auto;padding:32px}
+.h1{display:flex;gap:16px;align-items:center;font-size:32px;font-weight:900;letter-spacing:.5px;color:var(--brand)}
+.card{background:var(--panel);border:1px solid #1a2540;border-radius:16px;padding:20px}
+.input, .button, textarea{width:100%;border-radius:12px;border:1px solid #233054;background:#0d1526;color:var(--text)}
+textarea{min-height:160px;padding:12px}
+.input{padding:12px}
+.button{padding:14px 16px;font-weight:700;cursor:pointer;display:inline-flex;gap:8px;justify-content:center;align-items:center}
+.button[disabled]{opacity:.6;cursor:not-allowed}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.videoBox{min-height:400px;border:2px dashed #233054;border-radius:16px;display:flex;align-items:center;justify-content:center;color:var(--muted)}
+.badge{display:inline-flex;padding:4px 8px;border-radius:999px;background:#0b1a2f;border:1px solid #1b2b4a;color:#a6c3ff;font-size:12px;font-weight:600}
+.footer{opacity:.7;margin-top:24px}
+small.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#9fb3d9}
